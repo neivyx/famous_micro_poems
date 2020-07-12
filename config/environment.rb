@@ -1,5 +1,13 @@
-require "famous_micro_poems/version"
+require "pry"
+require "nokogiri"
+require "open-uri"
 
+
+
+require_relative "../lib/api.rb"
+require_relative "../lib/cli.rb"
+require_relative "../lib/poems.rb"
+require_relative "../lib/version.rb"
 
 
 # module FamousMicroPoems
