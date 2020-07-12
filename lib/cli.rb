@@ -4,7 +4,20 @@ class CLI
     def initialize
         @input = input
 
-        end
+        
+    end
+
+    def call
+        puts "hello"
+    end
+
+
+    def start
+        puts "hello2"
+    end
+
+    def print_poem
+
     end
 
 end
